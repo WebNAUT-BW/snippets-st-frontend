@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<img src="http://placehold.jp/${1:bgcolor}/${2:textcolor}/${3:width}x${4:height}.png?text=${5:text}">
+]]></content>
+<tabTrigger>html.placeholdit-jp-all</tabTrigger>
+<!-- <scope>text.html</scope> -->
+</snippet>

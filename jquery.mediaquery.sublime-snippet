@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+//ウィンドウリサイズ毎にmediaQueryControlを実行する
+\$(window).resize(function() {
+    mediaQueryControl(\$(window).width());
+});
+
+function mediaQueryControl(width) {
+    if (width > 1200) {
+        // ウィンドウ幅1200px以上の場合
+    } else if (width > 960) {
+        // ウィンドウ幅960px以上の場合
+    } else {
+        // ウィンドウ幅それ以下の場合
+    }
+}
+]]></content>
+<tabTrigger>jquery.mediaquery</tabTrigger>
+<!-- <scope>source.js</scope> -->
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+<content><![CDATA[
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+]]></content>
+<tabTrigger>html.apple-touch-icon</tabTrigger>
+<!-- <scope>text.html</scope> -->
+</snippet>

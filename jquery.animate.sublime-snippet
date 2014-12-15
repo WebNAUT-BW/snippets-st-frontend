@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$('.selector').animate({
+	'height' : '100px',
+	'width' : '0px'},
+1000);
+]]></content>
+<tabTrigger>jquery.animate</tabTrigger>
+<!-- <scope>source.js</scope> -->
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[@include border-image(url(${1:value}) 00 round fill);]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>compass.border-image</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

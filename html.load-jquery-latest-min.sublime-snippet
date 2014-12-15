@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+]]></content>
+<tabTrigger>html.oad-jquery-latest-min</tabTrigger>
+<!-- <scope>text.html</scope> -->
+</snippet>

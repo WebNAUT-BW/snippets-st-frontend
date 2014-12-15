@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$('${1:value}').mouseover(function() {
+
+});
+]]></content>
+<tabTrigger>jquery.mouseover</tabTrigger>
+<!-- <scope>source.js</scope> -->
+</snippet>

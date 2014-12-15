@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<img src="http://lorempixel.com/${1:320}/${2:240}/${3:category}" width="$1" height="$2" alt="${3:category}" title="${4:placeholder}">]]></content>
+	<tabTrigger>html.img-lpx</tabTrigger>
+	<description>LoremPixel - Placeholder</description>
+</snippet>

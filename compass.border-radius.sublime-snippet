@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[@include border-radius(${1:value});]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>compass.border-radius</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

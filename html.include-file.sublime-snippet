@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<!--#include file="/file/oooo.html" -->
+]]></content>
+	<tabTrigger>html.include-file</tabTrigger>
+</snippet>

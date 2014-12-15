@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<img src="http://placehold.it/${1:width}x${2:height}">
+]]></content>
+<tabTrigger>html.placeholdit</tabTrigger>
+<!-- <scope>text.html</scope> -->
+</snippet>

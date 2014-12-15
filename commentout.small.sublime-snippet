@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+/* #
+----------------------- */
+]]></content>
+<tabTrigger>commentout.small</tabTrigger>
+<!-- <scope>source.scss,source.css,source.js</scope> -->
+</snippet>

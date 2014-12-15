@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+この部分はコンテンツ見出しとなります。文字数は約○○文字前後となります。
+]]></content>
+<tabTrigger>dummytext.heading</tabTrigger>
+<!-- <scope>text.html</scope> -->
+</snippet>

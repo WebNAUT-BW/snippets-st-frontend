@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$('${1:value}').each(function(){
+	var _this = \$(this);
+
+});
+]]></content>
+<tabTrigger>jquery.each</tabTrigger>
+<!-- <scope>source.js</scope> -->
+</snippet>

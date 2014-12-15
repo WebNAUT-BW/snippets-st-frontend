@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<img src="http://lorempixel.com/${1:320}/${2:240}/abstract" width="$1" height="$2" alt="abstract" title="${3:placeholder}">
+<img src="http://lorempixel.com/${1:320}/${2:240}/animals" width="$1" height="$2" alt="animals" title="${3:placeholder}">
+<img src="http://lorempixel.com/${1:320}/${2:240}/business" width="$1" height="$2" alt="business" title="${3:placeholder}">
+<img src="http://lorempixel.com/${1:320}/${2:240}/cats" width="$1" height="$2" alt="cats" title="${3:placeholder}">
+<img src="http://lorempixel.com/${1:320}/${2:240}/city" width="$1" height="$2" alt="city" title="${3:placeholder}">
+<img src="http://lorempixel.com/${1:320}/${2:240}/food" width="$1" height="$2" alt="food" title="${3:placeholder}">
+<img src="http://lorempixel.com/${1:320}/${2:240}/nightlife" width="$1" height="$2" alt="nightlife" title="${3:placeholder}">
+<img src="http://lorempixel.com/${1:320}/${2:240}/fashion" width="$1" height="$2" alt="fashion" title="${3:placeholder}">
+<img src="http://lorempixel.com/${1:320}/${2:240}/people" width="$1" height="$2" alt="people" title="${3:placeholder}">
+<img src="http://lorempixel.com/${1:320}/${2:240}/nature" width="$1" height="$2" alt="nature" title="${3:placeholder}">
+<img src="http://lorempixel.com/${1:320}/${2:240}/sports" width="$1" height="$2" alt="sports" title="${3:placeholder}">
+<img src="http://lorempixel.com/${1:320}/${2:240}/technics" width="$1" height="$2" alt="technics" title="${3:placeholder}">
+<img src="http://lorempixel.com/${1:320}/${2:240}/transport" width="$1" height="$2" alt="transport" title="${3:placeholder}">]]></content>
+	<tabTrigger>html.img-lpx-all</tabTrigger>
+	<description>LoremPixelAll - Placeholder</description>
+</snippet>

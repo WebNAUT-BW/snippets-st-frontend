@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<!--#include virtual="/file/oooo.html" -->
+]]></content>
+	<tabTrigger>html.include-virtual</tabTrigger>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+to get a random picture of 400 x 200 pixels
+<img src="http://lorempixel.com/400/200">
+
+to get a random gray picture of 400 x 200 pixels
+<img src="http://lorempixel.com/g/400/200">
+
+to get a random picture of the sports category
+<img src="http://lorempixel.com/400/200/sports">
+
+to get picture no. 1/10 from the sports category
+<img src="http://lorempixel.com/400/200/sports/1">
+
+...with a custom text on the random Picture
+<img src="http://lorempixel.com/400/200/sports/Dummy-Text">
+
+...with a custom text on the selected Picture
+<img src="http://lorempixel.com/400/200/sports/1/Dummy-Text">]]></content>
+	<tabTrigger>html.img-lpx-all</tabTrigger>
+	<description>LoremPixel(Sample) - Placeholder</description>
+</snippet>

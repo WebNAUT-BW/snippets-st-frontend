@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+]]></content>
+<tabTrigger>html.load-jquery-1-9-1</tabTrigger>
+<!-- <scope>text.html</scope> -->
+</snippet>

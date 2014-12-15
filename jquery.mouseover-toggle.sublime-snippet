@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$('${1:value}').mouseover(function() {
+
+}).mouseout(function() {
+
+});
+]]></content>
+<tabTrigger>jquery.mouseover-toggle</tabTrigger>
+<!-- <scope>source.js</scope> -->
+</snippet>

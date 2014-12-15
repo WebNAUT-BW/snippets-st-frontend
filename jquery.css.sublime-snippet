@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$('${1:value}').css('${2:value}','${3:value}');
+]]></content>
+<tabTrigger>jquery.css</tabTrigger>
+<!-- <scope>source.js</scope> -->
+</snippet>

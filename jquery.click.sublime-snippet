@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$('${1:value}').click(function(e) {
+
+	e.preventDefault();
+});
+]]></content>
+<tabTrigger>jquery.click</tabTrigger>
+<!-- <scope>source.js</scope> -->
+</snippet>

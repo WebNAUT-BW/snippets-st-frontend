@@ -1,0 +1,38 @@
+<snippet>
+	<content><![CDATA[
+\$(function() {
+	if(navigator.userAgent.indexOf('iPhone') > 0){
+		\$('body').addClass('ua-iphone');
+	}
+	if(navigator.userAgent.indexOf('Android') > 0){
+		\$('body').addClass('ua-android');
+	}
+	if(navigator.userAgent.indexOf('Android 2') > 0){
+		\$('body').addClass('ua-android-2');
+	}
+	if(navigator.userAgent.indexOf('Android 3') > 0){
+		\$('body').addClass('ua-android-3');
+	}
+	if(navigator.userAgent.indexOf('Android 4') > 0){
+		\$('body').addClass('ua-android-4');
+	}
+	if(navigator.userAgent.indexOf('Mobile') > 0){
+		\$('body').addClass('ua-mobile');
+	}
+	if(navigator.userAgent.indexOf('SC-01C') > 0){
+		\$('body').addClass('ua-sc01c');
+	}
+	if(navigator.userAgent.indexOf('iPad') > 0){
+		\$('body').addClass('ua-ipad');
+	}
+	if(navigator.userAgent.indexOf('iPod') > 0){
+		\$('body').addClass('ua-ipod');
+	}
+	if(navigator.userAgent.indexOf('MSIE') > 0){
+		\$('body').addClass('ua-ie');
+	}
+});
+]]></content>
+<tabTrigger>jquery.ua</tabTrigger>
+<!-- <scope>source.js</scope> -->
+</snippet>
