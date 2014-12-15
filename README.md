@@ -1,5 +1,3 @@
-#フロントエンド開発でよく使うSublime Text用スニペット集
-
 ##汎用コメントアウト
 commentout.large
 ```
@@ -41,29 +39,29 @@ dummytext.p
 
 ##HTML
 html.apple-touch-icon-precomposed
-```
+```html
 <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png" />
 ```
 
 html.apple-touch-icon
-```
+```html
 <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 ```
 
 html.favicon
-```
+```html
 <link rel="shortcut icon" href="favicon.ico" />
 ```
 
 html.if-IE
-```
+```html
 <!--[if IE]>
 
 <![endif]-->
 ```
 
 html.if-IE8under
-```
+```html
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -71,57 +69,57 @@ html.if-IE8under
 ```
 
 html.include-file
-```
+```html
 <!--#include file="/file/oooo.html" -->
 ```
 
 html.include-virtual
-```
+```html
 <!--#include virtual="/file/oooo.html" -->
 ```
 
 html.load-jquery-latest-min
-```
+```html
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 ```
 
 html.load-jquery-latest
-```
+```html
 <script src="http://code.jquery.com/jquery.js"></script>
 ```
 
 html.load-jquery-1-9-1-min
-```
+```html
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 ```
 
 html.load-jquery-1-9-1
-```
+```html
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 ```
 
 html.load-jquery-1-10-1-min
-```
+```html
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 ```
 
 html.load-jquery-1-10-1
-```
+```html
 <script src="http://code.jquery.com/jquery-1.10.1.js"></script>
 ```
 
 html.load-jquery-1-11-1-min
-```
+```html
 <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
 ```
 
 html.load-jquery-1-11-1
-```
+```html
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 ```
 
 html.OGP
-```
+```html
 <meta property="og:title" content="ページタイトル" />
 <meta property="og:type" content="websiteまたはarticle" />
 <meta property="og:url" content="ページのURL（http://から指定）" />
@@ -135,63 +133,63 @@ html.OGP
 ```
 
 html.viewport-device-width
-```
+```html
 <meta name="viewport" content="width=device-width">
 ```
 
 html.viewport-device-width-noZoom
-```
+```html
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 ```
 
 html.viewport-device-width-zoom
-```
+```html
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 ```
 
 html.viewport-320
-```
+```html
 <meta name="viewport" content="width=320">
 ```
 
 ##HTMLダミー画像
 html.placeholder
-```
+```html
 <img src="http://placehold.it/${1:width}x${2:height}">
 ```
 
 html.placeholder-color
-```
+```html
 <img src="http://placehold.it/${1:width}x${2:height}/${3:color}">
 ```
 
 html.placeholder-all
-```
+```html
 <img src="http://placehold.it/${1:width}x${2:height}/${3:bgcolor}/${4:textcolor}&text=${5:text}">
 ```
 
 html.placeholder-jp
-```
+```html
 <img src="http://placehold.jp/${1:width}x${2:height}.png">
 ```
 
 html.placeholder-jp-all
-```
+```html
 <img src="http://placehold.jp/${1:bgcolor}/${2:textcolor}/${3:width}x${4:height}.png?text=${5:text}">
 ```
 
 html.img-lpx
-```
+```html
 <img src="http://lorempixel.com/${1:320}/${2:240}/${3:category}" width="$1" height="$2" alt="${3:category}" title="${4:placeholder}">]]></content>
 ```
 
 html.img-lpxg
-```
+```html
 <img src="http://lorempixel.com/g/${1:320}/${2:240}/${3:category}" width="$1" height="$2" alt="${3:category}" title="${4:placeholder}">]]></content>
 ```
 
 html.img-lpx-all
-```
+```html
 <img src="http://lorempixel.com/${1:320}/${2:240}/abstract" width="$1" height="$2" alt="abstract" title="${3:placeholder}">
 <img src="http://lorempixel.com/${1:320}/${2:240}/animals" width="$1" height="$2" alt="animals" title="${3:placeholder}">
 <img src="http://lorempixel.com/${1:320}/${2:240}/business" width="$1" height="$2" alt="business" title="${3:placeholder}">
@@ -208,7 +206,7 @@ html.img-lpx-all
 ```
 
 html.img-lpx-sample
-```
+```html
 to get a random picture of 400 x 200 pixels
 <img src="http://lorempixel.com/400/200">
 
@@ -231,74 +229,74 @@ to get picture no. 1/10 from the sports category
 
 ##CSS,Compass
 css.yui-reset
-```
+```css
 /* YUI 3.5.0 reset.css (http://developer.yahoo.com/yui/3/cssreset/) - http://cssreset.com */
 html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
 ```
 
 compass.background-size
-```
+```scss
 @include background-size(${1:value});
 ```
 
 compass.border-image
-```
+```scss
 @include border-image(url(${1:value}) 00 round fill);
 ```
 
 compass.border-radius
-```
+```scss
 @include border-radius(${1:value});
 ```
 
 compass.box-shadow
-```
+```scss
 @include box-shadow(${1:value} rgba(0,0,0,${0:0}));
 ```
 
 compass.box-sizing
-```
+```scss
 @include box-sizing(${1:border}-box);
 ```
 
 compass.clearfix
-```
+```scss
 @include clearfix;
 ```
 
 compass.linear-gradient-rgba
-```
+```scss
 @include background(linear-gradient(rgba(${1:0,0,0,0}) 0%, rgba(${0:0,0,0,0}) 100%));
 ```
 
 compass.linear-gradient
-```
+```scss
 @include background(linear-gradient(top, #fff, #eee));
 ```
 
 compass.opacity
-```
+```scss
 @include opacity(${1:.6});
 ```
 
 compass.rotate
-```
+```scss
 @include rotate(${1:value});
 ```
 
 compass.text-shadow
-```
+```scss
 @include text-shadow(rgba(#000, 0.5) 1px 1px 0);
 ```
 
 compass.transition-duration
-```
+```scss
 @include transition-duration(0.3s);
 ```
 
 ##JavaScript,jQuery
 jquery.animate
-```
+```javascript
 \$('.selector').animate({
 	'height' : '100px',
 	'width' : '0px'},
@@ -306,7 +304,7 @@ jquery.animate
 ```
 
 jquery.click
-```
+```javascript
 \$('${1:value}').click(function(e) {
 
 	e.preventDefault();
@@ -314,12 +312,12 @@ jquery.click
 ```
 
 jquery.css
-```
+```javascript
 \$('${1:value}').css('${2:value}','${3:value}');
 ```
 
 jquery.each
-```
+```javascript
 \$('${1:value}').each(function(){
 	var _this = \$(this);
 
@@ -327,14 +325,14 @@ jquery.each
 ```
 
 jquery.function
-```
+```javascript
 \$(function(){
 
 });
 ```
 
 jquery.mediaquery
-```
+```javascript
 //ウィンドウリサイズ毎にmediaQueryControlを実行する
 \$(window).resize(function() {
     mediaQueryControl(\$(window).width());
@@ -352,7 +350,7 @@ function mediaQueryControl(width) {
 ```
 
 jquery.mouseover-toggle
-```
+```javascript
 \$('${1:value}').mouseover(function() {
 
 }).mouseout(function() {
@@ -361,20 +359,20 @@ jquery.mouseover-toggle
 ```
 
 jquery.mouseover
-```
+```javascript
 \$('${1:value}').mouseover(function() {
 
 });
 ```
 
 jquery.ready
-```
+```javascript
 \$(document).ready(function (\$) {
 });
 ```
 
 jquery.ua
-```
+```javascript
 \$(function() {
 	if(navigator.userAgent.indexOf('iPhone') > 0){
 		\$('body').addClass('ua-iphone');
@@ -410,6 +408,6 @@ jquery.ua
 ```
 
 js.console
-```
+```javascript
 console.log('${1:value}=' + ${1:value});
 ```
